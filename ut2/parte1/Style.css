@@ -1,0 +1,51 @@
+:root {
+  --background: #fefefe;
+  --text: #092652;
+  --accent: #a5e070;
+  --accent-light: #e3ecf3;
+  --border: #d6e0ea;
+  --link: #017ce9;
+}
+
+header{
+  border-bottom: 2px solid var(--accent);
+}
+
+body{
+    text:var(--text);
+  background-color: var(--background);
+  font-family: Segoe UI, Tahoma , Geneva , Verdana , snas-serif ;
+}
+
+ nav ul{
+  background-color:  var(--border);
+  border-radius: 5px;
+  padding: 1rem 2.5rem 1rem 1.5rem;
+  max-withd: 50rem;
+  margin: 1.75rem 1.25rem 1.25rem 2.25rem;
+  border-radius: 0,75rem;
+}
+
+main{
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+a{
+  color: var(--link);
+}
+
+img{
+  border-radius: 18px;
+  width-width:800px;
+  width:auto;
+  heigth:auto;
+  
+}
+
+aside span{display:block;
+}
+
+footer{
+    color:var(--text);
+}
